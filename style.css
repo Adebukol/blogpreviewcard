@@ -37,6 +37,10 @@ button{
     margin-bottom: 20px;
     font-size: 25px;
     color: hsl(0, 0%, 7%);
+    cursor: pointer;
+}
+.heading:hover{
+    color: hsl(47, 88%, 63%);
 }
 .paragraph, .paragraph1{
     margin-bottom: 20px;
@@ -66,5 +70,8 @@ button{
         }
         img{
             width: 100%;
+        }
+        .heading{
+            font-size: 18px;
         }
     }
