@@ -2,6 +2,7 @@
 body{
     background-color: hsl(47, 88%, 63%);
     font-family: "Figtree", sans-serif;
+    margin: 200px 0px 200px 0px;
 }
 .box{
     display: block;
@@ -63,9 +64,13 @@ button{
     .attribution a { color: hsl(228, 45%, 44%); }
 
     @media screen and (max-width: 400px) {
+        body{
+           
+            margin: 100px 20px 100px 20px;
+        }
         .box{
-            margin-left: 20px;
-            margin-right: 20px;
+            /* margin-left: 20px;
+            margin-right: 20px; */
             width: 100%;
         }
         img{
