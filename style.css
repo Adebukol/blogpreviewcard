@@ -74,4 +74,7 @@ button{
         .heading{
             font-size: 18px;
         }
+        .paragraph, .paragraph1{
+            font-size: 14px;
+        }
     }
